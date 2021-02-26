@@ -1,5 +1,5 @@
 ---
-baseURL: "/"
+baseURL: https://nextventures-test.netlify.app
 languageCode: en-us
 title: TEST Hugo Parsa Forestry Starter
 module:
@@ -14,8 +14,8 @@ module:
       target: static
     - source: exampleSite/static/images
       target: static/images
-summaryLength: '10'
-paginate: '6'
+summaryLength: "10"
+paginate: "6"
 outputs:
   home:
   - HTML
@@ -41,7 +41,7 @@ params:
     - link: plugins/search/search.js
   logo: images/logo.png
   home: Home
-  layout: '1'
+  layout: "1"
   description: This is meta description
   preloader: true
   search: true
@@ -71,7 +71,7 @@ menu:
   main:
   - URL: contact
     name: Contact
-    weight: 1
+    weight: "1"
   - URL: about
     name: About
-    weight: 2
+    weight: "2"
